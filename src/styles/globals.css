@@ -91,7 +91,7 @@ body {
 } */
 
 .layout {
-  z-index: 9999;
+  z-index: 999;
   display: flex;
   overflow: hidden;
   position: relative;

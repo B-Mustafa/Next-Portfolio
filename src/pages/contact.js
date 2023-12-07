@@ -5,6 +5,8 @@ import { useRef } from "react";
 import BaseLayout from "@/components/BaseLayout";
 import Footer from "@/components/Footer";
 
+const emailjsApiKey = "nWGsp6QzzQUiYqR35"
+
 const Contact = () => {
   const form = useRef();
   const nameRef = useRef();
@@ -22,6 +24,7 @@ const Contact = () => {
 
     emailjs
       .sendForm("service_metx8h5", "template_zvv235d", form.current, emailjsApiKey)
+      // .sendForm(process.env.EMAIL_JS_SERVICE, process.env.EMAIL_JS_TEMPLATE, form.current, emailjsApiKey)
       .then((result) => {
         form.current.reset();
         alert("Message sent successfully !");
