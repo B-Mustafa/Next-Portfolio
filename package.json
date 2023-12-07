@@ -31,5 +31,6 @@
   "devDependencies": {},
   "main": "index.js",
   "author": "Mustafa",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/B-Mustafa/next-portfolio.git"
 }
