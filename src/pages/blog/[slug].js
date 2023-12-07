@@ -36,21 +36,19 @@ const BlogPost = ({ post }) => {
     );
   }
 
-  const processedContent =  remark()
-    .use(remarkGfm)
-    .use(html)
-    .process(post.content);
-   const contentHtml = processedContent.toString();
+  const processedContent = remark().use(remarkGfm).use(html).processSync(post.content);
+  const contentHtml = processedContent.toString();
 
 
   return (
     <BaseLayout>
       <h1 className='title section-title'>{post.title}</h1>
       <p className='para padd-15'>{post.date}</p>
-      <ReactMarkdown remarkPlugins={[remarkGfm]} children={post.content} className='content padd-15' />
+      <ReactMarkdown remarkPlugins={[remarkGfm]} className='content padd-15'>
+        {contentHtml}
+      </ReactMarkdown>
     </BaseLayout>
   );
 };
-
 
 export default BlogPost;
