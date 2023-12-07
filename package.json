@@ -11,6 +11,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@next/font": "13.1.4",
+    "dotenv": "^16.3.1",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.4",
     "framer-motion": "^10.16.4",
