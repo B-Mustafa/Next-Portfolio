@@ -18,15 +18,16 @@ export default function Blog({ allPostsData }) {
         <h2 style={{ fontSize: '2rem' }} className="section-title">Blog</h2>
         <ul style={{ listStyle: 'none', padding: 0 }} className="blog-context" >
           {allPostsData.map(({ id, date, title, slug }) => (
-          <Link href="/blog/[slug]" as={`/blog/${slug}`} className="blog-link ">
             <li key={id} className="blog-card" >
+              <Link href="/blog/[slug]" as={`/blog/${slug}`} className="blog-link ">
                 {title}
               <br/>
+              </Link>
               {slug}
               <br />
               {date}
             </li>
-            </Link>
+            
           ))}
         </ul>
       </section>
