@@ -28,6 +28,7 @@
     "remark-parse": "^11.0.0",
     "sass": "^1.69.5",
     "unified": "^11.0.3",
+    "vercel": "^32.6.1",
     "yarn": "^1.22.21"
   },
   "main": "index.js",

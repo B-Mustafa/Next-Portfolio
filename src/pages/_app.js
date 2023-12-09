@@ -5,6 +5,7 @@ import "@/styles/animations.css";
 import '@/styles/posts.scss'
 
 
+
 export default function App({ Component, pageProps }) {
   const metadata = {
     title: 'Mustafa Bhikhapurwala | Portfolio',
@@ -22,6 +23,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       <SidebarProvider>
         <Component {...pageProps} />
+      
       </SidebarProvider>
     </>
   );

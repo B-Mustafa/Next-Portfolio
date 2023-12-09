@@ -26,7 +26,7 @@ export async function getStaticProps({ params }) {
   };
 }
 
-const BlogPost = async ({ post }) => {
+const BlogPost = ({ post }) => {
   if (!post) {
     return (
       <BaseLayout>
@@ -35,14 +35,14 @@ const BlogPost = async ({ post }) => {
     );
   }
 
-  const processedContent = await remark().use(gfm).use(html).process(post.content);
-  const contentHtml = processedContent.toString();
+  const processedContent = remark().use(gfm).use(html).processSync(post.content);
+  const content = processedContent.toString();
 
   return (
     <BaseLayout>
       <h1 className='title section-title'>{post.title}</h1>
       <p className='para padd-15'>{post.date}</p>
-      <ReactMarkdown components={{}}>{contentHtml}</ReactMarkdown>
+      <ReactMarkdown remarkPlugins={[gfm]} className='content padd-15'>{content}</ReactMarkdown>
     </BaseLayout>
   );
 };
