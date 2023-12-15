@@ -10,7 +10,7 @@ const ProjectCard = ({ name, githubUrl, image, youtube, deployed, youtubeUrl, pr
       exit={{ opacity: 0 }}
       className="project-card"
     >
-      <Image src={image} alt={`${name} Image`} className="project-image" width={300} height={300} />
+      <Image src={image} alt={`${name} Image`} className="project-image" width={200} height={200} />
       <h3 className="project-title">{name}</h3>
       <div className="project-links">
         <a href={githubUrl} target="_blank" className="github-link icon" rel="noreferrer">

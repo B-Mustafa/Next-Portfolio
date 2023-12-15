@@ -3,7 +3,7 @@ export const projectsCard = [
     {
       name: "Portfolio Website",
       githubUrl: "https://github.com/B-Mustafa/portfolio",
-      image: "/assets/sidemenu.jpg",
+      image: "/assets/portfolio.png",
       youtubeUrl: "",
       projectUrl: "https://mustafadev.me/",
       category: ["vanilla"],

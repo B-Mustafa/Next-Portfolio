@@ -627,9 +627,9 @@ body {
 }
 
 .project-image {
-  width: 100%;
+  max-width: 100%;
   height: 120px; 
-  object-fit: cover; 
+  object-fit: contain; 
   border-radius: 0.4rem;
 }
 
