@@ -661,6 +661,12 @@ body {
   text-decoration: underline;
 }
 
+@media (max-width:538px) {
+  .category button{
+    margin:0.2rem 0.5rem;
+  }
+}
+
 /* Blog Card */
 
 .blog-section {
