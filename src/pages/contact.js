@@ -57,16 +57,16 @@ const Contact = () => {
                   <a href="https://github.com/B-Mustafa" className="icon">
                     <AiFillGithub />
                   </a>
-                  <a href="#" className="icon">
+                  <a href="https://discord.com/users/790966930043305984" className="icon">
                     <FaDiscord />
                   </a>
                   <a href="https://www.instagram.com/_mustafa_0203/?igshid=MzNINGNkZWQ4Mg%3D%3D" className="icon">
                     <AiFillInstagram />
                   </a>
-                  <a href="#" className="icon">
+                  <a href="https://www.patreon.com/_Mustafa" className="icon">
                     <FaPatreon />
                   </a>
-                  <a href="#" className="icon">
+                  <a href="https://www.youtube.com/@MUSTAFA-up2ej" className="icon">
                     <FaYoutube />
                   </a>
                 </div>

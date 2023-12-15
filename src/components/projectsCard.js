@@ -13,7 +13,7 @@ export const projectsCard = [
     {
       name: "Patient Manager",
       githubUrl: "https://github.com/B-Mustafa/patient-record",
-      image: "/assets/sidemenu.jpg",
+      image: "/assets/patient-manager.png",
       youtubeUrl: "",
       projectUrl: "https://mustafab.vercel.app/",
       category: ["py"],
