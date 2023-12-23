@@ -20,6 +20,14 @@ export const projectsCard = [
       deployed: false,
   
     },
-    
+    {
+      name: "",
+      githubUrl: "",
+      image:"",
+      youtubeUrl:"",
+      projectUrl:"",
+      category:[""],
+      deployed: false,
+    }
   
   ]

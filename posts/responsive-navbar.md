@@ -286,6 +286,6 @@ We're done additionally you can add other components and pages like about me, pr
 
 ![image](https://github-production-user-asset-6210df.s3.amazonaws.com/75468116/261019634-c7a3e677-8feb-4dae-9b9c-fe8fe4a42b00.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230816%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230816T133310Z&X-Amz-Expires=300&X-Amz-Signature=a32d0f343de91395594bc0557ae785975841bdc7bf60477dd7e704f673e9f5a6&X-Amz-SignedHeaders=host&actor_id=75468116&key_id=0&repo_id=676061621)
 
-> Consider checking out 👉 [🌐 Devsite](https://mustafadev.me) | [🐱 Github](https://github.com/B-Mustafa)
+> Consider checking out 👉 [🌐 Devsite](https://mustafadev.me) | [🐱 Github](https://github.com/B-Mustafa) | [🐱 Author Site](https://preetsuthar.me)
 
 That's it for this blog! Thanks for reading, I Preet Suthar sign out here!

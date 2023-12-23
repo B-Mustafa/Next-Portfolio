@@ -104,6 +104,8 @@ body {
   z-index: 1;
 }
 
+
+
 .sidebar_wrapper {
   z-index: 999;
   height: 100vh;
@@ -663,7 +665,7 @@ body {
 
 @media (max-width:538px) {
   .category button{
-    margin:0.2rem 0.5rem;
+    margin:0.2rem 0.5rem; 
   }
 }
 

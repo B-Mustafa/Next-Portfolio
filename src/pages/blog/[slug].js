@@ -42,7 +42,8 @@ const BlogPost = ({ post }) => {
     <BaseLayout>
       <h1 className='title section-title'>{post.title}</h1>
       <p className='para padd-15'>{post.date}</p>
-      <ReactMarkdown remarkPlugins={[gfm]} className='content padd-15'>{content}</ReactMarkdown>
+      
+      <ReactMarkdown remarkPlugins={[gfm]} className='content padd-15'>{post.content}</ReactMarkdown>
     </BaseLayout>
   );
 };

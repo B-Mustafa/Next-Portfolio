@@ -40,7 +40,7 @@ const About = () => {
                                         <p>Birthday:<span>2 December 2003</span></p>
                                     </div>
                                     <div className="info-item padd-15">
-                                        <p>Age:<span>19</span></p>
+                                        <p>Age:<span>20</span></p>
                                     </div>
                                     <div className="info-item padd-15">
                                         <p>Website:<span>mustafadev.me</span></p>
@@ -48,9 +48,9 @@ const About = () => {
                                     <div className="info-item padd-15">
                                         <p>E-mail:<span>bhikhapurmustafa@gmail.com</span></p>
                                     </div>
-                                    <div className="info-item padd-15">
+                                    {/* <div className="info-item padd-15">
                                         <p>Phone:<span>(+91)8160123053</span></p>
-                                    </div>
+                                    </div> */}
                                     <div className="info-item padd-15">
                                         <p> 🟢 Available for Freelancing</p>
                                     </div>

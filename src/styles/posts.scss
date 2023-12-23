@@ -1,13 +1,13 @@
 $color_1: var(--heading-color);
-$color_2: #666666;
+$color_2: #2c2c2c;
 $color_3: var(--font-color);
 $color_4: #17b6ff;
 $color_5: rgb(200, 200, 200);
 $font-family_1: "firecode", sans-serif;
-$background-color_1: rgb(40,44,52);
+$background-color_1: rgb(33, 34, 37);
 
 
-.content {
+.content{
     color: $color_3;
     line-height: 1.6;
     word-wrap: break-word;
@@ -89,7 +89,7 @@ $background-color_1: rgb(40,44,52);
       color: white;
     }
     pre {
-      background-color: #08080892;
+      background-color: #080808cc;
       backdrop-filter: blur(10px);
       border: 2px solid #39393912;
       font-size: 15px;
